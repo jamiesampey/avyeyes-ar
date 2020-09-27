@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DB2766A2521032300174A1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB276692521032300174A1B /* AppDelegate.swift */; };
+		7DB2766C2521032300174A1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB2766B2521032300174A1B /* ContentView.swift */; };
+		7DB2766E2521032300174A1B /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 7DB2766D2521032300174A1B /* Experience.rcproject */; };
+		7DB276702521032400174A1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DB2766F2521032400174A1B /* Assets.xcassets */; };
+		7DB276732521032400174A1B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DB276722521032400174A1B /* Preview Assets.xcassets */; };
+		7DB2767E2521032400174A1B /* AvyEyesARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB2767D2521032400174A1B /* AvyEyesARTests.swift */; };
+		7DB276892521032400174A1B /* AvyEyesARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB276882521032400174A1B /* AvyEyesARUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DB2767A2521032400174A1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DB2765E2521032300174A1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DB276652521032300174A1B;
+			remoteInfo = AvyEyesAR;
+		};
+		7DB276852521032400174A1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DB2765E2521032300174A1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DB276652521032300174A1B;
+			remoteInfo = AvyEyesAR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7DB276662521032300174A1B /* AvyEyesAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvyEyesAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DB276692521032300174A1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7DB2766B2521032300174A1B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7DB2766D2521032300174A1B /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		7DB2766F2521032400174A1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DB276722521032400174A1B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7DB276742521032400174A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DB276792521032400174A1B /* AvyEyesARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvyEyesARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DB2767D2521032400174A1B /* AvyEyesARTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvyEyesARTests.swift; sourceTree = "<group>"; };
+		7DB2767F2521032400174A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DB276842521032400174A1B /* AvyEyesARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvyEyesARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DB276882521032400174A1B /* AvyEyesARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvyEyesARUITests.swift; sourceTree = "<group>"; };
+		7DB2768A2521032400174A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DB276632521032300174A1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DB276762521032400174A1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DB276812521032400174A1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DB2765D2521032300174A1B = {
+			isa = PBXGroup;
+			children = (
+				7DB276682521032300174A1B /* AvyEyesAR */,
+				7DB2767C2521032400174A1B /* AvyEyesARTests */,
+				7DB276872521032400174A1B /* AvyEyesARUITests */,
+				7DB276672521032300174A1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DB276672521032300174A1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DB276662521032300174A1B /* AvyEyesAR.app */,
+				7DB276792521032400174A1B /* AvyEyesARTests.xctest */,
+				7DB276842521032400174A1B /* AvyEyesARUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB276682521032300174A1B /* AvyEyesAR */ = {
+			isa = PBXGroup;
+			children = (
+				7DB276692521032300174A1B /* AppDelegate.swift */,
+				7DB2766B2521032300174A1B /* ContentView.swift */,
+				7DB2766D2521032300174A1B /* Experience.rcproject */,
+				7DB2766F2521032400174A1B /* Assets.xcassets */,
+				7DB276742521032400174A1B /* Info.plist */,
+				7DB276712521032400174A1B /* Preview Content */,
+			);
+			path = AvyEyesAR;
+			sourceTree = "<group>";
+		};
+		7DB276712521032400174A1B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7DB276722521032400174A1B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7DB2767C2521032400174A1B /* AvyEyesARTests */ = {
+			isa = PBXGroup;
+			children = (
+				7DB2767D2521032400174A1B /* AvyEyesARTests.swift */,
+				7DB2767F2521032400174A1B /* Info.plist */,
+			);
+			path = AvyEyesARTests;
+			sourceTree = "<group>";
+		};
+		7DB276872521032400174A1B /* AvyEyesARUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7DB276882521032400174A1B /* AvyEyesARUITests.swift */,
+				7DB2768A2521032400174A1B /* Info.plist */,
+			);
+			path = AvyEyesARUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DB276652521032300174A1B /* AvyEyesAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DB2768D2521032400174A1B /* Build configuration list for PBXNativeTarget "AvyEyesAR" */;
+			buildPhases = (
+				7DB276622521032300174A1B /* Sources */,
+				7DB276632521032300174A1B /* Frameworks */,
+				7DB276642521032300174A1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AvyEyesAR;
+			productName = AvyEyesAR;
+			productReference = 7DB276662521032300174A1B /* AvyEyesAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DB276782521032400174A1B /* AvyEyesARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DB276902521032400174A1B /* Build configuration list for PBXNativeTarget "AvyEyesARTests" */;
+			buildPhases = (
+				7DB276752521032400174A1B /* Sources */,
+				7DB276762521032400174A1B /* Frameworks */,
+				7DB276772521032400174A1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DB2767B2521032400174A1B /* PBXTargetDependency */,
+			);
+			name = AvyEyesARTests;
+			productName = AvyEyesARTests;
+			productReference = 7DB276792521032400174A1B /* AvyEyesARTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7DB276832521032400174A1B /* AvyEyesARUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DB276932521032400174A1B /* Build configuration list for PBXNativeTarget "AvyEyesARUITests" */;
+			buildPhases = (
+				7DB276802521032400174A1B /* Sources */,
+				7DB276812521032400174A1B /* Frameworks */,
+				7DB276822521032400174A1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DB276862521032400174A1B /* PBXTargetDependency */,
+			);
+			name = AvyEyesARUITests;
+			productName = AvyEyesARUITests;
+			productReference = 7DB276842521032400174A1B /* AvyEyesARUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DB2765E2521032300174A1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					7DB276652521032300174A1B = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					7DB276782521032400174A1B = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 7DB276652521032300174A1B;
+					};
+					7DB276832521032400174A1B = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 7DB276652521032300174A1B;
+					};
+				};
+			};
+			buildConfigurationList = 7DB276612521032300174A1B /* Build configuration list for PBXProject "AvyEyesAR" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DB2765D2521032300174A1B;
+			productRefGroup = 7DB276672521032300174A1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DB276652521032300174A1B /* AvyEyesAR */,
+				7DB276782521032400174A1B /* AvyEyesARTests */,
+				7DB276832521032400174A1B /* AvyEyesARUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DB276642521032300174A1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB276732521032400174A1B /* Preview Assets.xcassets in Resources */,
+				7DB276702521032400174A1B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DB276772521032400174A1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DB276822521032400174A1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DB276622521032300174A1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB2766C2521032300174A1B /* ContentView.swift in Sources */,
+				7DB2766A2521032300174A1B /* AppDelegate.swift in Sources */,
+				7DB2766E2521032300174A1B /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DB276752521032400174A1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB2767E2521032400174A1B /* AvyEyesARTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DB276802521032400174A1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB276892521032400174A1B /* AvyEyesARUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DB2767B2521032400174A1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DB276652521032300174A1B /* AvyEyesAR */;
+			targetProxy = 7DB2767A2521032400174A1B /* PBXContainerItemProxy */;
+		};
+		7DB276862521032400174A1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DB276652521032300174A1B /* AvyEyesAR */;
+			targetProxy = 7DB276852521032400174A1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7DB2768B2521032400174A1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7DB2768C2521032400174A1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DB2768E2521032400174A1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AvyEyesAR/Preview Content\"";
+				DEVELOPMENT_TEAM = 288XD69AY5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AvyEyesAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamiesampey.AvyEyesAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DB2768F2521032400174A1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AvyEyesAR/Preview Content\"";
+				DEVELOPMENT_TEAM = 288XD69AY5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AvyEyesAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamiesampey.AvyEyesAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7DB276912521032400174A1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 288XD69AY5;
+				INFOPLIST_FILE = AvyEyesARTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamiesampey.AvyEyesARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AvyEyesAR.app/AvyEyesAR";
+			};
+			name = Debug;
+		};
+		7DB276922521032400174A1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 288XD69AY5;
+				INFOPLIST_FILE = AvyEyesARTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamiesampey.AvyEyesARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AvyEyesAR.app/AvyEyesAR";
+			};
+			name = Release;
+		};
+		7DB276942521032400174A1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 288XD69AY5;
+				INFOPLIST_FILE = AvyEyesARUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamiesampey.AvyEyesARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AvyEyesAR;
+			};
+			name = Debug;
+		};
+		7DB276952521032400174A1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 288XD69AY5;
+				INFOPLIST_FILE = AvyEyesARUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamiesampey.AvyEyesARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AvyEyesAR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DB276612521032300174A1B /* Build configuration list for PBXProject "AvyEyesAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DB2768B2521032400174A1B /* Debug */,
+				7DB2768C2521032400174A1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DB2768D2521032400174A1B /* Build configuration list for PBXNativeTarget "AvyEyesAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DB2768E2521032400174A1B /* Debug */,
+				7DB2768F2521032400174A1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DB276902521032400174A1B /* Build configuration list for PBXNativeTarget "AvyEyesARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DB276912521032400174A1B /* Debug */,
+				7DB276922521032400174A1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DB276932521032400174A1B /* Build configuration list for PBXNativeTarget "AvyEyesARUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DB276942521032400174A1B /* Debug */,
+				7DB276952521032400174A1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DB2765E2521032300174A1B /* Project object */;
+}
